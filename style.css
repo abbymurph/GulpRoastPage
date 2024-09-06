@@ -1,0 +1,166 @@
+/* see the brand guide for colors, fonts, and images in CodePen: 
+https://docs.google.com/document/d/124Wli0Rxp4GhOrrOijzznbnOfNC9kP8wOVZnPZsR2DE/edit?usp=sharing */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  border: solid;
+  border-radius: 5px;
+  border-width: 10px;
+  color: #082B59;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  background-color: #59331D;
+  margin-bottom: 100px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+
+  
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 30px;
+  color: #59331D;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-right: 75px;
+  margin-left: 75px;
+  }
+
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .nav {
+      display: flex;
+      flex-direction: column;
+      font-family: Poppins;
+      font-weight: bold;
+      font-size: 26px;
+      color: #59331D;
+      text-decoration: underline;
+      text-align: center;
+
+   
+      }
+    }
+
+
+h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 40px;
+  color: #F2F2F2;
+  background-color: #131D26;
+  text-align: center;
+  margin-bottom: 75px;
+  margin-right: 150px;
+  margin-left: 150px;
+  border-radius: 10px;
+}
+p {font-family: raleway;
+color: #131D26;
+text-align: center;
+font-size: 25px;
+
+}
+h3 {font-family: lato;
+color: #131D26;
+text-align: center;
+font-size: 40px;
+ margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+button {
+  font-family: raleway;
+  font-size: 40px;
+  color: #082B59;
+  background-color: #131D26;
+  border: none;
+  color: #F2F2F2;
+  padding: 25px 35px;
+  display: linline-block;
+  text-align: center;
+  border-radius: 10px;
+  }
+.grid-container
+{text-align: center;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.container2 {
+  font-family: lato;
+color: #131D26;
+text-align: center;
+font-size: 20px;
+margin-right: 100px;
+margin-left: 100px;
+margin-top: 200px;
+}
+
+.image1
+{display: flex;
+  justify-content: center;
+  background-color: #59331D;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.image1
+{display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+}
+.image2
+{ 
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.h4
+{ 
+  font-family: Poppins;
+font-weight: bold;
+font-size: 40px;
+text-align: left;
+margin-left: 100px;
+color: #59331D;
+}
+.p1 {
+  font-family: lato;
+color: #131D26;
+text-align: left;
+font-size: 25px;
+margin-right: 100px;
+margin-left: 100px;
+}
